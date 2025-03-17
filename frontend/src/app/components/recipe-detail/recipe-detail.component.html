@@ -1,0 +1,11 @@
+
+<div class="recipe-detail" *ngIf="recipe">
+    <h2>{{ recipe.title }}</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+      <li *ngFor="let ingredient of recipe.ingredients">{{ ingredient }}</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <p>{{ recipe.instructions }}</p>
+    <a routerLink="/">Back to Recipe List</a>
+  </div>

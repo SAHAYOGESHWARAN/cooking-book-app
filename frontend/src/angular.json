@@ -1,0 +1,26 @@
+
+{
+    "projects": {
+      "frontend": {
+        "architect": {
+          "build": {
+            "options": {
+              "outputPath": "dist/frontend",
+              "index": "src/index.html",
+              "main": "src/main.ts",
+              "polyfills": "src/polyfills.ts",
+              "tsConfig": "tsconfig.app.json",
+              "assets": [
+                "src/favicon.ico",
+                "src/assets"
+              ],
+              "styles": [
+                "src/styles.css"
+              ],
+              "scripts": []
+            }
+          }
+        }
+      }
+    }
+  }
