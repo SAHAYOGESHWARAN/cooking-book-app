@@ -1,1 +1,5 @@
 .qodo
+bacakend/node_modules
+frontend/node_modules
+
+bacakend/.env
